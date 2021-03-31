@@ -136,7 +136,9 @@
     font-size: 22px;
     line-height: 1;
   }
-
+  &__form{
+    display: flex;
+  }
   &__link {
     display: block;
     margin-bottom: 14px;
@@ -153,7 +155,7 @@
     box-shadow: 0 7px 20px 0 rgba(192, 192, 192, 0.3);
     border: none;
     padding: 12px 10px 12px 15px;
-
+    margin-right: 3px;
     &::placeholder {
       color: $default;
       font-size: 16px;
